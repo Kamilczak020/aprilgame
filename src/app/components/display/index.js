@@ -5,14 +5,13 @@ import { STORE_UI } from '../../constants/stores';
 
 @inject(STORE_UI)
 @observer
-export class Header extends React.Component {
+export class Display extends React.Component {
   render() {
     const uiStore = this.props[STORE_UI];
 
     return (
-      <div className={styles.header}>
-        <button className={styles.buttonIncrement} onClick={() => uiStore.increment(5)}>Start</button>
-        <button className={styles.buttonDecrement} onClick={() => uiStore.stop()}>Stop</button>
+      <div className={styles.display}>
+        <h1>{uiStore.counter}</h1>
       </div>
     );
   }

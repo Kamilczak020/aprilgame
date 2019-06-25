@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { inject, observer } from 'mobx-react';
 import { Header } from '../../components/header';
+import { Display } from '../../components/display';
 import { STORE_ROUTER } from '../../constants/stores';
 import * as styles from './styles.css';
 
@@ -12,7 +13,7 @@ export class AppPage extends React.Component {
       <div className={styles.appContainer}>
         <Header />
           <div className={styles.contentContainer}>
-            <h1>sdasdasdadas</h1>
+            <Display />
           </div>
       </div>
     );

@@ -1,5 +1,21 @@
 .header {
   height: 100px;
   width: 100%;
-  background-color: red;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+
+  background: linear-gradient(45deg, rgb(92, 66, 238) 10%, rgb(143, 39, 228) 90%) !important;
+}
+
+.buttonIncrement {
+  width: 100px;
+  height: 50px;
+  margin-left: 20px;
+}
+
+.buttonDecrement {
+  width: 100px;
+  height: 50px;
+  margin-left: 20px;
 }

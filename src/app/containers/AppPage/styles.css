@@ -14,8 +14,3 @@ html, body {
   display: flex;
   flex-direction: row;
 }
-
-.contentContainer h1 {
-  font-size: 10px;
-  color: yellow;
-}
